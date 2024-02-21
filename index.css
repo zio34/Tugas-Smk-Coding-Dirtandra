@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+    user-select: none;
+}
+body{
+    overflow: hidden;
+    overflow-y: auto;
+    min-height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section-top{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    background-color: #F6EADA;
+}
+.section-top img{
+    top: 0;
+    left: 0;
+    width: 430px;
+    position: absolute;
+    margin-top: -32px;
+    margin-left: 20px;
+}
+.section-top p{
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 7.7rem;
+    margin-top: 2.68rem;
+}
+.section-top .underline{
+    position: absolute;
+    width: 55px;
+    height: 3px;
+    margin-top: 75.8px;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 219px;
+    background-color: #fb982d;
+}
+.section-top .card-main{
+    width: 90vw;
+    height: 330px;
+    background-color: #f4d8a8;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-top: 160px;
+    margin-left: 73.6px;
+    border-radius: 60px;
+    z-index: 9;
+}
+.section-top .card-main .card{
+    width: 20rem; 
+    z-index: 999; 
+    margin-top:-70px;
+    margin-left: 102px;
+    height: 316px; 
+    position: absolute;
+    border-radius: 13px;
+}
+.section-top .card-main .card .card-body{
+    display: flex;
+    flex-direction: column;
+}
+.section-top .card-main .card img{
+    width: 278.5px;
+    position: relative;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+.section-top .card-main .card .card-body .card-body-stats{
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+.section-top .card-main .card .card-body .card-body-stats .status-hot{
+    width: 90px;
+    display: flex;
+    padding: 1.5px;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid orange;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-weight: bold;
+    color: orange;
+}
+.section-top .card-main .card .card-body .card-body-stats .status-cold{
+    width: 90px;
+    display: flex;
+    padding: 1.5px;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid orange;
+    border-radius: 10px;
+    opacity: 0.46;
+    margin-left: 10px;
+    font-family: Poppins;
+    font-weight: bold;
+    color: orange;
+}
+.section-top .card-main .card .card-body .card-body-stats .cart-icon{
+    width: 36px;
+    height: 35px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid orange;
+    background-color: orange;
+    border-radius: 100px;
+    margin-left: 58px;
+}
+.section-top .card-main .card .card-body .card-body-stats .cart-icon img{
+    width: 18px;
+    margin-top: -0.5px;
+    margin-left: -0.5px;
+}
+.section-top .card-main .card .card-body .card-body-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: max-content;
+    margin-top: -10px;
+    height: 20px;
+}
+.section-top .card-main .card .card-body .card-body-text div{
+    width: max-content;
+    font-size: larger;
+    height: 35px;
+    font-weight: bold;
+}
+.section-top .card-main .card .card-body .card-body-text .text-1{
+    margin-right: 138px;
+}
+.section-bottom{
+    width: 100vw;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.section-bottom p{
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 15rem;
+    margin-left: 8rem;
+}
+.section-bottom .underline{
+    position: absolute;
+    width: 85px;
+    height: 3px;
+    margin-top: 17.2rem;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 366px;
+    background-color: #fb982d;
+}
+.section-bottom .main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    height: 100px;
+}
+.section-bottom .main .main-1, .main-2, .main-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 9rem;
+}
+.section-bottom .main .main-1{
+    margin-right: 100px;
+}
+.section-bottom .main .main-2{
+    margin-right: 100px;
+}
+.main-1 img, .main-2 img, .main-3 img{
+    width: 130px;
+}
+.main-1 .text-1, .main-2 .text-1, .main-3 .text-1{
+    font-family: Poppins;
+    font-weight: bolder;
+    font-size: large;
+    margin-top: 12px;
+}
+.main-1 .text-2, .main-2 .text-2, .main-3 .text-2{
+    font-family: Poppins;
+    font-size: smaller;
+}
